@@ -395,7 +395,8 @@
       enable = true;
       extensions.typst-preview-nvim = {
         enable = true;
-        setupOpts.open_cmd = "chromium --guest %s";
+        # setupOpts.open_cmd = "chromium --guest %s";
+        setupOpts.open_cmd = "librewolf %s";
       };
     };
   };
